@@ -31,7 +31,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
-    "jest": "^25.5.3",
+    "jest": "^26.0.1",
     "jest-canvas-mock": "^2.1.0",
     "path": "^0.12.7",
     "raw-loader": "^4.0.1",
