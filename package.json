@@ -5,8 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --config webpack/prod.js ",
-    "start": "webpack-dev-server --config webpack/base.js --open",
-    "test": "jest"
+    "start": "webpack serve --config webpack/base.js --open Chrome.exe"
   },
   "repository": {
     "type": "git",
@@ -31,15 +30,13 @@
     "clean-webpack-plugin": "^3.0.0",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
-    "jest": "^26.1.0",
-    "jest-canvas-mock": "^2.1.0",
     "path": "^0.12.7",
     "raw-loader": "^4.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "terser-webpack-plugin": "^4.2.2",
-    "webpack": "^5.11.0",
-    "webpack-cli": "^4.2.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.1.14",
     "webpack-merge": "^5.1.4"
   },
@@ -50,24 +47,6 @@
     "css-loader": "^5.0.0",
     "phaser": "^3.17.0",
     "react-redux": "^7.0.2",
-    "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0",
     "style-loader": "^2.0.0"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.jsx?$": "babel-jest"
-    },
-    "setupFiles": [
-      "jest-canvas-mock"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "jsx"
-    ],
-    "moduleNameMapper": {
-      "\\.(css|less|sass|scss)$": "<rootDir>/test/mocks/styleMock.js",
-      "\\.(gif|ttf|eot|svg|png)$": "<rootDir>/test/mocks/fileMock.js"
-    }
   }
 }
