@@ -34,7 +34,7 @@
     "raw-loader": "^4.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "terser-webpack-plugin": "^4.2.2",
+    "terser-webpack-plugin": "^5.1.2",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.1.14",
